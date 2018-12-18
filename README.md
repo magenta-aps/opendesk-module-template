@@ -21,8 +21,9 @@ The project is currently called `PLACEHOLDERARTIFACTID`. This must be changed to
 whatever the name of this module is. Do the following:
 
 * In the POM, set the content of the `<artifactId>` tag to an appropriate name.
+* In the POM, set the `<version>` of OpenDesk to the appropriate version number in the `<dependency>` section instead of using the snapshot version.
 * Change the name of the folder `backend/src/main/amp/config/alfresco/module/PLACEHOLDERARTIFACTID` to the same value as the one used in the `<artifactId>`.
-* Do the same for the folder `backend/src/main/java/dk/opendesk/PLACEHOLDERARTIFACTID`
+* Do the same for the folder `backend/src/main/java/dk/opendesk/PLACEHOLDERARTIFACTID` (create this folder if it does not exists).
 
 ## Add beans
 
